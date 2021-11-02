@@ -1,0 +1,4 @@
+0 Healthy Fish
+1 Fish White Spot
+2 Fish Ulcer
+3 Fish Fungus
