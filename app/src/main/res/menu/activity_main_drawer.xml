@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aquarium"
+            android:icon="@drawable/ic_aquarium"
+            android:title="Aquarium" />
+        <item
+            android:id="@+id/nav_fish"
+            android:icon="@drawable/ic_fish"
+            android:title="Fish" />
+        <item
+            android:id="@+id/nav_problem"
+            android:icon="@drawable/ic_problem"
+            android:title="Problems" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_todo"
+            android:title="Reminders" />
+    </group>
+</menu>
