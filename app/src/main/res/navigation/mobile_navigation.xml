@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_aquarium">
+
+    <fragment
+        android:id="@+id/nav_aquarium"
+        android:name="com.example.fishkeeping.ui.aquarium.AquariumFragment"
+        android:label="@string/menu_aquarium"
+        tools:layout="@layout/fragment_aquarium" />
+
+    <fragment
+        android:id="@+id/nav_fish"
+        android:name="com.example.fishkeeping.ui.fish.FishFragment"
+        android:label="@string/menu_fish"
+        tools:layout="@layout/fragment_fish" />
+
+    <fragment
+        android:id="@+id/nav_problem"
+        android:name="com.example.fishkeeping.ui.problem.ProblemFragment"
+        android:label="@string/menu_problem"
+        tools:layout="@layout/fragment_problem" />
+
+    <fragment
+        android:id="@+id/nav_todo"
+        android:name="com.example.fishkeeping.ui.todo.TodoFragment"
+        android:label="@string/menu_todo"
+        tools:layout="@layout/fragment_todo" />
+
+</navigation>
