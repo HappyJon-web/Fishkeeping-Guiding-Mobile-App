@@ -1,0 +1,3 @@
+0 Clean Aquarium Water
+1 Green Aquarium Water
+2 Cloudy Aquarium Water
